@@ -1,0 +1,210 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13349139900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "verify storelocator with valid data",
+        "description": "",
+        "id": "storelocator;verify-storelocator-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2320434200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage",
+            "match": {
+              "location": "HomePageStepDef.i_am_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6427650500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on store locator",
+            "match": {
+              "location": "StoreLocatorStepDef.i_click_on_store_locator()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 359522000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"IG7 5NP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IG7 5NP",
+                  "offset": 9
+                }
+              ],
+              "location": "StoreLocatorStepDef.i_enter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9188502900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on find store",
+            "match": {
+              "location": "StoreLocatorStepDef.click_on_find_store()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88346800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I need to see stores related to my postcode",
+            "match": {
+              "location": "StoreLocatorStepDef.i_need_to_see_stores_related_to_my_postcode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@storelocator"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10265394500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verify storelocator with valid data",
+        "description": "",
+        "id": "storelocator;verify-storelocator-with-valid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6180258100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on HomePage",
+            "match": {
+              "location": "HomePageStepDef.i_am_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2375993600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on store locator",
+            "match": {
+              "location": "StoreLocatorStepDef.i_click_on_store_locator()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1894927900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"IG2 6BX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IG2 6BX",
+                  "offset": 9
+                }
+              ],
+              "location": "StoreLocatorStepDef.i_enter(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3096818300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on find store",
+            "match": {
+              "location": "StoreLocatorStepDef.click_on_find_store()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1830013000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I need to see stores related to my postcode",
+            "match": {
+              "location": "StoreLocatorStepDef.i_need_to_see_stores_related_to_my_postcode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@storelocator"
+          }
+        ]
+      }
+    ],
+    "name": "storelocator",
+    "description": "",
+    "id": "storelocator",
+    "keyword": "Feature",
+    "uri": "storelocator.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@storelocator"
+      }
+    ]
+  }
+]
