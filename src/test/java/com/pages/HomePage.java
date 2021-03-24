@@ -22,6 +22,8 @@ public class HomePage extends BaseClass{
 	public void product(String productname)
 	{
 		action.updateElement(SEARCHTEXTBOX, productname);
+		// Assert.assertEquals("https://tuclothing.sainsburys.co.uk/", driver.getCurrentUrl());
+	
 	
 	}
 
